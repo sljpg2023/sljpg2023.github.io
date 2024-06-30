@@ -1,0 +1,1 @@
+chkdsk /R H:
