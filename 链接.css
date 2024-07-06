@@ -1,0 +1,30 @@
+a {
+  color: #337ab7; /* 设置链接文字颜色 */
+  text-decoration: none; /* 去除下划线 */
+  transition: color 0.3s; /* 颜色变化动画 */
+  position: relative; /* 相对定位，用于下划线的绝对定位 */
+
+}
+
+a:hover {
+  color: #23527c; /* 悬停时文字颜色变化 */
+}
+
+
+a:before {
+  content: '';
+  position: absolute;
+  width: 100%;
+  height: 1px; /* 下划线高度 */
+  bottom: 0;
+  left: 0;
+  background-color: #337ab7; /* 下划线颜色 */
+  visibility: hidden; /* 初始状态隐藏 */
+  transform: scaleX(0); /* 初始状态缩放为0 */
+  transition: all 0.3s ease-in-out; /* 动画效果 */
+}
+
+a:hover:before {
+  visibility: visible; /* 悬停时显示 */
+  transform: scaleX(1); /* 悬停时恢复原始大小 */
+}
