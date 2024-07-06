@@ -1,8 +1,8 @@
 @keyframes changeBackground {
-  0% { background-image: url('https://cdn.luogu.com.cn/upload/image_hosting/2gzwv4ya.png');background-position: center; }
-  33% { background-image: url('https://cdn.luogu.com.cn/upload/image_hosting/omzc2lw9.png');background-position: center; }
-  67% { background-image: url('https://cdn.luogu.com.cn/upload/image_hosting/3m64hz4i.png');background-position: center; }
-  100% { background-image: url('https://cdn.luogu.com.cn/upload/image_hosting/2gzwv4ya.png');background-position: center; }
+  0% { background-image: url('https://cdn.luogu.com.cn/upload/image_hosting/2gzwv4ya.png');}
+  33% { background-image: url('https://cdn.luogu.com.cn/upload/image_hosting/omzc2lw9.png'); }
+  67% { background-image: url('https://cdn.luogu.com.cn/upload/image_hosting/3m64hz4i.png'); }
+  100% { background-image: url('https://cdn.luogu.com.cn/upload/image_hosting/2gzwv4ya.png');}
 }
 
 body {
