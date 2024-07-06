@@ -1,0 +1,9 @@
+@keyframes changeBackground {
+  0% { background-image: url('https://cdn.luogu.com.cn/upload/image_hosting/2gzwv4ya.png'); }
+  50% { background-image: url('https://cdn.luogu.com.cn/upload/image_hosting/omzc2lw9.png'); }
+  100% { background-image: url('https://cdn.luogu.com.cn/upload/image_hosting/3m64hz4i.png'); }
+}
+
+body {
+  animation: changeBackground 5s infinite;
+}
