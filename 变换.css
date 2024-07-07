@@ -1,8 +1,28 @@
 @keyframes changeBackground {
-  0% { background-image: url('https://cdn.luogu.com.cn/upload/image_hosting/2gzwv4ya.png');}
-  33% { background-image: url('https://cdn.luogu.com.cn/upload/image_hosting/omzc2lw9.png'); }
-  67% { background-image: url('https://cdn.luogu.com.cn/upload/image_hosting/3m64hz4i.png'); }
-  100% { background-image: url('https://cdn.luogu.com.cn/upload/image_hosting/2gzwv4ya.png');}
+  0% { 
+    background-image: url('https://cdn.luogu.com.cn/upload/image_hosting/2gzwv4ya.png');
+    background-size: cover; /* 或 contain */
+    background-repeat: no-repeat; /* 确保背景图不重复 */
+    background-position: center; /* 可以选择背景图的位置 */
+  }
+  33% { 
+    background-image: url('https://cdn.luogu.com.cn/upload/image_hosting/omzc2lw9.png'); 
+    background-size: cover; /* 或 contain */
+    background-repeat: no-repeat; /* 确保背景图不重复 */
+    background-position: center; /* 可以选择背景图的位置 */
+  }
+  67% { 
+    background-image: url('https://cdn.luogu.com.cn/upload/image_hosting/3m64hz4i.png'); 
+    background-size: cover; /* 或 contain */
+    background-repeat: no-repeat; /* 确保背景图不重复 */
+    background-position: center; /* 可以选择背景图的位置 */
+  }
+  100% {
+    background-image: url('https://cdn.luogu.com.cn/upload/image_hosting/2gzwv4ya.png');
+    background-size: cover; /* 或 contain */
+    background-repeat: no-repeat; /* 确保背景图不重复 */
+    background-position: center; /* 可以选择背景图的位置 */
+  }
 }
 
 body {
